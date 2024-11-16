@@ -6,7 +6,7 @@ Tupper's self-referential formula is a mathematical formula that visually repres
 
 The formula is defined as:
 \[ \frac{1}{2} < \left\lfloor \text{mod} \left( \left\lfloor \frac{y}{17} \right\rfloor 2^{-17 \lfloor x \rfloor - \text{mod} (\lfloor y \rfloor, 17)}, 2 \right) \right\rfloor \]
-![Tupper's Formula](images/formula.png "Tupper's Formula Visual")
+![Tupper's Formula](images/formula_image.png "Tupper's Formula Visual")
 
 This formula plots points in a range of 17 units wide and infinitely tall, where each coordinate point (x, y) can either be part of a graph or not, based on the binary outcome of the formula.
 
