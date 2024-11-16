@@ -42,6 +42,6 @@ Before using the Tupper's Formula Visualizer, ensure your system meets the follo
 
 The visual output depends significantly on the nature of the input and the precise calculations of Tupper's formula. Text inputs are transformed into a corresponding binary image before being processed by the formula.
 
-## Conclusion
+## The App is here
 
-The Tupper's Formula Visualizer offers an intriguing glimpse into the world of mathematical visualization, demonstrating the power of a simple algebraic formula to represent complex graphical data. Explore different inputs to discover the versatility of Tupper's self-referential formula.
+The Tupper's Formula Visualizer offers an intriguing glimpse into the world of mathematical visualization, demonstrating the power of a simple algebraic formula to represent complex graphical data. Explore different inputs to discover the versatility of Tupper's self-referential formula. The App is here: https://naeemxnorabbasi.github.io/
