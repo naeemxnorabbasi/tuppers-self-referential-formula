@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header {
+    color: #007aff;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+.input-selection {
+    margin-bottom: 10px;
+}
+
+.upload-area {
+    margin-bottom: 20px;
+}
+
+.upload-area input[type="text"], .upload-area input[type="file"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    width: 80%;
+}
+
+button {
+    background-color: #007aff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.output-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.formula-details {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    text-align: left;
+}

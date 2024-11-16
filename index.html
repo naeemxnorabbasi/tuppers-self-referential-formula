@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Visualize Your Input</h1>
+        </header>
+        <main>
+            <div class="input-selection">
+                <label><input type="radio" name="inputType" value="text" checked> Text</label>
+                <label><input type="radio" name="inputType" value="image"> Image</label>
+            </div>
+            <div class="upload-area">
+                <input type="file" id="imageInput" accept="image/*" style="display:none;">
+                <input type="text" id="textInput" maxlength="12" placeholder="Enter up to 12 characters" style="display:block;">
+                <button onclick="processInput()">Convert and Display</button>
+                <button onclick="generateLaTeX()">Generate LaTeX</button>
+            </div>
+            <div class="output-area">
+                <canvas id="canvas"></canvas>
+                <div class="formula-details">
+                    <p id="formula">$$\frac{1}{2} < \left\lfloor \mathrm{mod}\left(\left\lfloor \frac{y}{17} \right\rfloor 2^{-17 \lfloor x \rfloor - \mathrm{mod}(\lfloor y \rfloor, 17)}, 2\right) \right\rfloor$$</p>
+                    <p>K= <span id="valueK"></span></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
