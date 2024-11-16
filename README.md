@@ -5,7 +5,7 @@
 Tupper's self-referential formula is a mathematical formula that visually represents itself when graphed at a specific location in the (x, y) coordinate plane. It was created by Jeff Tupper and is a type of "self-replicating" image derived from a single algebraic equation.
 
 The formula is defined as:
-<img src="formula_image.png" alt="Tupper's Formula" width="35%" title="Tupper's Formula Visual">
+<img src="formula_image.png" alt="Tupper's Formula" width="30%" title="Tupper's Formula Visual">
 <!--\[ \frac{1}{2} < \left\lfloor \text{mod} \left( \left\lfloor \frac{y}{17} \right\rfloor 2^{-17 \lfloor x \rfloor - \text{mod} (\lfloor y \rfloor, 17)}, 2 \right) \right\rfloor \]-->
 <!--![Tupper's Formula](formula_image.png width="50%"  "Tupper's Formula Visual")-->
 
